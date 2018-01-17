@@ -1,0 +1,71 @@
+@charset "utf-8";
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input,select{margin:0;padding:0;}
+body{font-size:16px;font-family: "微软雅黑";}
+ul,ol,li{list-style:none;}
+a,u{text-decoration: none;;}
+h1,h2,h3,h4,h5,h6{font-size:16px;font-weight:100;}
+b,strong{font-weight:100;}
+em,i{font-style:normal;}
+img{border:0;display:block;}
+.clearfix:after{content:".";display:block;clear:both;height:0;overflow:hidden;visibility: hidden;}
+
+
+
+.top_con,.footer_con,.mian_con{
+    width:1002px;
+    margin:0 auto;
+}
+/*top*/
+#top .top_con {
+  height: 88px;
+  padding-top: 8px;
+  border-bottom: 2px solid #3EA600;
+}
+#top .top_con .top_img {
+  width: 210px;
+  height: 80px;
+  float: left;
+  padding-left: 10px;
+}
+/*footer*/
+#footer {
+  background: #efefef;
+  border-bottom: 28px solid #3EA600;
+}
+#footer .footer_con {
+  height: 74px;
+  padding-top: 20px;
+}
+#footer .footer_con .footer_top {
+  line-height: 26px;
+  color: #606060;
+  font-size: 12px;
+  text-align: center;
+}
+#footer .footer_con .footer_top .box {
+  margin-left: 85px;
+}
+#footer .footer_con .footer_top span {
+  float: left;
+  display: inline-block;
+  height: 22px;
+  margin-top: -4px;
+}
+#footer .footer_con .footer_top .beian {
+  float: left;
+  display: inline-block;
+  width: 200px;
+}
+#footer .footer_con .footer_top .beian a {
+  color: #606060;
+}
+#footer .footer_con .footer_top .beian a img {
+  float: left;
+}
+#footer .footer_con .footer_top .beian a p {
+  float: left;
+  margin: -4px 0px 0px 5px;
+  color: #606060;
+}
+ #footer .footer_con .footer_top .beian a p:hover {
+            text-decoration: underline; }

@@ -1,0 +1,36 @@
+@charset "utf-8";
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input,select{margin:0;padding:0;}
+body{font-size:16px;font-family: "微软雅黑";}
+ul,ol,li{list-style:none;}
+a,u{text-decoration: none;;}
+h1,h2,h3,h4,h5,h6{font-size:16px;font-weight:100;}
+b,strong{font-weight:100;}
+em,i{font-style:normal;}
+img{border:0;display:block;}
+.clearfix:after{content:".";display:block;clear:both;height:0;overflow:hidden;visibility: hidden;}
+
+
+/*公共的宽*/
+.top_2_con,.logo_con,.nav_con,.banner_con,.hottest_con,.feature_con,.recommend_con,.photo_con,.import_con,.down_con,.new_con,.header_con{
+    width:1245px;
+    margin:0 auto;
+}
+/*banner*/
+    .banner_active{
+        background:#3ea600!important;
+        box-shadow:0px 0px 1px 1px #3ea600!important;
+    }
+/*import*/
+    .import_active{
+        background:#3ea600!important;
+        box-shadow:0px 0px 1px 1px #3ea600!important;
+    }
+/*import_con_top_oul*/
+
+       .import_con_top_oul_active{
+            border-bottom: 2px solid #a1c0f6; 
+       }   
+/*louti*/ 
+.louti_active{
+    background:#3EA600;
+}     

@@ -1,0 +1,220 @@
+@charset "UTF-8";
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, input, select {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-size: 16px;
+  font-family: "微软雅黑"; }
+
+ul, ol, li {
+  list-style: none; }
+
+a, u {
+  text-decoration: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 16px;
+  font-weight: 100; }
+
+b, strong {
+  font-weight: 100; }
+
+em, i {
+  font-style: normal; }
+
+img {
+  border: 0;
+  display: block; }
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+.top_con, .mian_con, .footer_con {
+  width: 1002px;
+  margin: 0 auto; }
+
+/*top*/
+#top .top_con {
+  height: 88px;
+  padding-top: 8px;
+  border-bottom: 2px solid #3EA600; }
+  #top .top_con .top_img {
+    width: 210px;
+    height: 80px;
+    float: left;
+    padding-left: 10px; }
+  #top .top_con .top_zi {
+    float: left;
+    margin: 20px;
+    font-size: 20px;
+    line-height: 36px;
+    color: #333333; }
+  #top .top_con .top_right {
+    float: right;
+    margin: 20px;
+    font-size: 16px;
+    line-height: 36px; }
+    #top .top_con .top_right span {
+      color: #999999;
+      font-size: 16px;
+      line-height: 36px; }
+    #top .top_con .top_right a {
+      cursor: pointer;
+      color: #333333;
+      font-size: 16px;
+      line-height: 36px; }
+
+/*mian*/
+#mian .mian_con {
+  height: 500px;
+  padding: 20px 0px 10px 0px;
+  position: relative; }
+  #mian .mian_con .mian_form {
+    width: 280px;
+    padding: 10px 10px;
+    border: #fff 1px solid;
+    margin: 3px auto;
+    height: 445px;
+    position: absolute;
+    top: 35px;
+    right: 10px;
+    z-index: 10; }
+    #mian .mian_con .mian_form form {
+      width: 280px;
+      height: 378px; }
+      #mian .mian_con .mian_form form .mcicont_input {
+        width: 280px;
+        height: 54px;
+        position: relative; }
+        #mian .mian_con .mian_form form .mcicont_input .tishi {
+          background: #fee6e7;
+          border: 1px #faa2a6 solid;
+          height: 18px;
+          color: #ff8080;
+          font-family: "瀹嬩綋";
+          position: absolute;
+          top: -19px;
+          left: 0px;
+          display: none;
+          z-index: 98;
+          padding: 0px 20px 0px 16px; }
+      #mian .mian_con .mian_form form .cont_input {
+        height: 23px;
+        width: 252px;
+        padding: 5px 13px;
+        border: #ccc 1px solid;
+        font-size: 14px;
+        outline: none; }
+      #mian .mian_con .mian_form form #yanzhengma {
+        height: 23px;
+        padding: 5px 13px;
+        border: #ccc 1px solid;
+        font-size: 14px;
+        width: 127px;
+        float: left;
+        outline: none; }
+      #mian .mian_con .mian_form form #btn {
+        width: 100px;
+        height: 34px;
+        background: #43a41b;
+        border: 0;
+        font-size: 12px;
+        color: #fff;
+        margin-left: 25px;
+        cursor: pointer;
+        float: left;
+        text-align: center;
+        line-height: 34px; }
+      #mian .mian_con .mian_form form .check {
+        width: 260px;
+        height: 22px;
+        margin-top: 10px;
+        position: relative; }
+        #mian .mian_con .mian_form form .check .tishi {
+          background: #fee6e7;
+          border: 1px #faa2a6 solid;
+          height: 18px;
+          color: #ff8080;
+          font-family: "瀹嬩綋";
+          position: absolute;
+          top: -19px;
+          left: 0px;
+          display: none;
+          z-index: 98;
+          padding: 0px 20px 0px 16px; }
+        #mian .mian_con .mian_form form .check #check {
+          float: left; }
+        #mian .mian_con .mian_form form .check p {
+          font-size: 12px;
+          float: left; }
+        #mian .mian_con .mian_form form .check a {
+          float: left;
+          font-size: 12px;
+          color: #419bf9; }
+        #mian .mian_con .mian_form form .check a:hover {
+          text-decoration: underline; }
+      #mian .mian_con .mian_form form .zhuce {
+        height: 30px;
+        text-align: center;
+        padding-top: 10px; }
+        #mian .mian_con .mian_form form .zhuce .sub {
+          display: block;
+          width: 277px;
+          height: 36px;
+          border: 0;
+          color: #fff;
+          text-align: center;
+          line-height: 15px;
+          cursor: pointer;
+          background-color: #43a41b;
+          font-size: 18px; }
+        #mian .mian_con .mian_form form .zhuce span {
+          height: 16px;
+          line-height: 16px;
+          padding-top: 14px;
+          float: left;
+          color: #43a41b;
+          cursor: pointer;
+          font-size: 14px; }
+
+/*footer*/
+#footer {
+  background: #efefef;
+  border-bottom: 28px solid #3EA600; }
+  #footer .footer_con {
+    height: 74px;
+    padding-top: 20px; }
+    #footer .footer_con .footer_top {
+      line-height: 26px;
+      color: #606060;
+      font-size: 12px;
+      text-align: center; }
+      #footer .footer_con .footer_top .box {
+        margin-left: 85px; }
+      #footer .footer_con .footer_top span {
+        float: left;
+        display: inline-block;
+        height: 22px;
+        margin-top: -4px; }
+      #footer .footer_con .footer_top .beian {
+        float: left;
+        display: inline-block;
+        width: 200px; }
+        #footer .footer_con .footer_top .beian a {
+          color: #606060; }
+          #footer .footer_con .footer_top .beian a img {
+            float: left; }
+          #footer .footer_con .footer_top .beian a p {
+            float: left;
+            margin: -4px 0px 0px 5px;
+            color: #606060; }
+          #footer .footer_con .footer_top .beian a p:hover {
+            text-decoration: underline; }
+
+/*# sourceMappingURL=zhuce.css.map */
